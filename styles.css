@@ -191,6 +191,17 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+.nav-toggle {
+    font-size: 1.5rem;
+    color: var(--clr-grey-1);
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.nav-toggle:hover {
+    color: var(--clr-secondary);
+}
 .logo {
     height: 50px;
 }
