@@ -195,10 +195,10 @@ nav {
     background: var(--clr-white);
     box-shadow: var(--light-shadow);
 }
-.fixed-nav .link a {
+.fixed-nav .links a {
     color: var(--clr-grey-1);
 }
-.fixed-nav .link a:hover {
+.fixed-nav .links a:hover {
     color: var(--clr-secondary);
 }
 .fixed-nav .links-container {
@@ -282,8 +282,8 @@ nav {
         font-weight: bold;
         padding: 0;
     }
-    .link a:hover {
-        color: var(--clr-white);
+    .links a:hover {
+        color: var(--clr-grey-1);
     }
 }
 
